@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact AM Digital Solutions to request a custom website, mobile application, or digital product quote.">
+  <title>Contact | AM Digital Solutions</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="inner-page">
+  <header class="site-header">
+    <a class="brand" href="index.html"><span class="brand-mark">AM</span><span>AM Digital Solutions</span></a>
+    <nav class="main-nav" aria-label="Main navigation"><a href="services.html">Services</a><a href="projects.html">Projects</a><a href="contact.html">Contact</a></nav>
+    <a class="header-link" href="#contact-form">Start a project <span>↗</span></a>
+  </header>
+
+  <main>
+    <section class="page-hero contact-page-hero">
+      <p class="eyebrow"><span></span> Contact</p>
+      <h1>Let us build something sharp.</h1>
+      <p>Tell me what you need, what stage the idea is in, and the best way to reach you. I will respond with the next steps and a custom quote after reviewing the scope.</p>
+    </section>
+
+    <section class="contact-section">
+      <div class="contact-panel">
+        <p class="section-kicker">Direct contact</p>
+        <h2>Prefer to talk first?</h2>
+        <p>Send a quick message through WhatsApp or email. Share your business name, the type of project, and what you want the website or app to achieve.</p>
+        <div class="contact-cards">
+          <a href="mailto:antonymugo66@gmail.com"><strong>Email</strong><span>antonymugo66@gmail.com</span></a>
+          <a href="https://wa.me/254793505248"><strong>WhatsApp</strong><span>0793505248</span></a>
+        </div>
+      </div>
+
+      <form class="simple-contact-form" id="contact-form">
+        <div>
+          <p class="section-kicker">Project enquiry</p>
+          <h2>Send a brief.</h2>
+        </div>
+        <div class="fields-grid">
+          <div class="field"><label for="name">Name *</label><input id="name" name="name" required autocomplete="name" placeholder="Your name"></div>
+          <div class="field"><label for="email">Email *</label><input id="email" name="email" type="email" required autocomplete="email" placeholder="you@example.com"></div>
+          <div class="field"><label for="phone">WhatsApp / phone</label><input id="phone" name="phone" type="tel" autocomplete="tel" placeholder="+254 700 000 000"></div>
+          <div class="field"><label for="project-type">Project type</label><select id="project-type" name="projectType"><option>Website development</option><option>Mobile application development</option><option>Website and mobile app</option><option>Digital system / dashboard</option><option>Not sure yet</option></select></div>
+          <div class="field full"><label for="message">Project details *</label><textarea id="message" name="message" rows="7" required placeholder="Tell me about the brand or business, what you want built, any pages or features you need, and when you would like to launch."></textarea></div>
+        </div>
+        <div class="form-footer simple-footer">
+          <button type="button" class="button whatsapp-button" id="send-whatsapp">Send via WhatsApp <span>↗</span></button>
+          <button type="button" class="button email-button" id="send-email">Send via email <span>→</span></button>
+        </div>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <div><a class="brand footer-brand" href="index.html"><span class="brand-mark">AM</span><span>AM Digital Solutions</span></a><p>Premium websites, apps, and digital systems.</p></div>
+    <div class="footer-meta"><span id="footer-email"></span><span>WhatsApp: 0793505248</span><span>Based in Nairobi - Working everywhere</span><span>© <span id="year"></span> AM Digital Solutions</span></div>
+  </footer>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="script.js"></script>
+</body>
+</html>

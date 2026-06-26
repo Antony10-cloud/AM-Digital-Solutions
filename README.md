@@ -1,14 +1,13 @@
 # AM Digital Solutions Website
 
-A polished static website for AM Digital Solutions, built to present website development and mobile application development while letting prospects submit a structured project request.
+A premium static website for AM Digital Solutions, built as a personal brand and digital studio site with separate Home, Services, Projects, and Contact pages.
 
 ## Included
 
-- Full personal brand landing page
-- Website development service section
-- Mobile application development service section
-- Multi-step project request planner
-- Indicative quotation calculator
+- Premium personal brand landing page
+- Dedicated services page
+- Projects showcase page
+- Simple contact form
 - WhatsApp and email enquiry actions
 - Static deployment setup for GitHub and Vercel
 
