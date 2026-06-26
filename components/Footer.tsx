@@ -33,11 +33,9 @@ export function Footer() {
       <div className="footer-grid">
         <div>
           <Link className="footer-logo" href="/">
-            AMDIGITAL
+            <span>AM</span>DIGITAL
           </Link>
-          <p>
-            Building websites, apps, and practical digital systems for businesses that need to look clear, credible, and ready online.
-          </p>
+          <p>Building clean websites, mobile apps, and digital systems for businesses that want to look professional online.</p>
           <div className="social-links">
             <a href="https://twitter.com/" aria-label="AM Digital Solutions on Twitter">
               <TwitterIcon />
@@ -70,16 +68,16 @@ export function Footer() {
 
         <div>
           <h3>Start A Project</h3>
-          <p>Send a short brief and I will reply with the right next step.</p>
+          <p>Send your email and project idea. I will reply with the next step.</p>
           <div className="footer-contact">
-            <a href="mailto:antonymugo66@gmail.com">antonymugo66@gmail.com</a>
-            <a href="https://wa.me/254793505248">WhatsApp: 0793505248</a>
+            <span>antonymugo66@gmail.com</span>
+            <Link href="/contact">Contact</Link>
           </div>
         </div>
       </div>
 
       <div className="footer-bottom">
-        <span>© 2026 AM Digital Solutions. All rights reserved.</span>
+        <span>&copy; 2026 AM Digital Solutions. All rights reserved.</span>
         <div>
           <Link href="/contact">Privacy</Link>
           <Link href="/contact">Terms</Link>

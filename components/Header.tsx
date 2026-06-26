@@ -5,8 +5,14 @@ export function Header() {
   return (
     <header className="site-header">
       <Link className="brand" href="/" aria-label="AM Digital Solutions home">
-        <span className="brand-mark">AM</span>
-        <span>AM Digital Solutions</span>
+        <span className="brand-mark">
+          <span>A</span>
+          <span>M</span>
+        </span>
+        <span className="brand-word">
+          <strong>AM</strong>
+          <span>Digital Solutions</span>
+        </span>
       </Link>
 
       <nav className="main-nav" aria-label="Main navigation">
@@ -26,7 +32,7 @@ export function Header() {
       </nav>
 
       <Link className="header-link" href="/contact">
-        Start a project <span aria-hidden="true">→</span>
+        Start a project <span aria-hidden="true">&rarr;</span>
       </Link>
     </header>
   );

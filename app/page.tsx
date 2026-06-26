@@ -23,12 +23,9 @@ export default function HomePage() {
       </section>
 
       <section className="studio-note">
-        <p className="section-kicker">The Approach</p>
-        <h2>First, make the offer clear. Then build the product around it.</h2>
-        <p>
-          A strong digital product is not just decoration. It should answer the right questions, guide people through the next
-          action, and make the business easier to choose.
-        </p>
+        <p className="section-kicker">Studio</p>
+        <h2>Clean interfaces. Clear messaging. Digital products that feel considered.</h2>
+        <p>From the first screen to the final enquiry, every detail is shaped to feel simple, useful, and ready for business.</p>
       </section>
 
       <section className="service-preview">
