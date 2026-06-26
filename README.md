@@ -1,15 +1,16 @@
 # AM Digital Solutions Website
 
-A premium static website for AM Digital Solutions, built as a personal brand and digital studio site with separate Home, Services, Projects, and Contact pages.
+A premium Next.js website for AM Digital Solutions, built as a personal brand and service enquiry site.
 
 ## Included
 
-- Premium personal brand landing page
-- Dedicated services page
-- Projects showcase page
-- Simple contact form
+- Premium landing page
+- Services dropdown in the main navigation
+- Dedicated service pages for website development, mobile app development, and digital systems
+- Dedicated enquiry form at the bottom of every service page
+- Projects page without placeholder project cards
 - WhatsApp and email enquiry actions
-- Static deployment setup for GitHub and Vercel
+- Vercel-ready Next.js build
 
 ## Contact
 
@@ -19,8 +20,8 @@ A premium static website for AM Digital Solutions, built as a personal brand and
 
 ## Deploy
 
-This is a dependency-free static site.
+Install dependencies, build, and deploy on Vercel.
 
-- Build command: leave empty
-- Output / publish directory: `.`
-- Entry file: `index.html`
+- Build command: `npm run build`
+- Development command: `npm run dev`
+- Framework: Next.js
