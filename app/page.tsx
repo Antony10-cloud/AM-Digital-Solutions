@@ -6,31 +6,19 @@ export default function HomePage() {
     <main>
       <section className="hero">
         <div className="hero-copy">
-          <p className="eyebrow"><span /> AM Digital Solutions</p>
-          <h1>Build the digital front door your business deserves.</h1>
-          <p>
-            AM Digital Solutions creates websites, mobile apps, and focused systems that help customers understand what you do,
-            trust your business, and reach you without friction.
+          <p className="eyebrow">
+            <span /> AM Digital Solutions
           </p>
+          <h1>Build a sharper digital presence.</h1>
+          <p>Websites, apps, and systems designed to make your business easier to understand, trust, and choose.</p>
           <div className="hero-actions">
             <Link className="button button-primary" href="/contact">
-              Start a project <span aria-hidden="true">→</span>
+              Start a project <span aria-hidden="true">&rarr;</span>
             </Link>
             <Link className="text-link" href="/services">
               View services
             </Link>
           </div>
-        </div>
-
-        <div className="hero-panel" aria-label="AM Digital Solutions service focus">
-          <p>Built Around</p>
-          {services.map((service, index) => (
-            <Link key={service.slug} href={`/services/${service.slug}`} className="hero-service">
-              <span>0{index + 1}</span>
-              <strong>{service.title}</strong>
-            </Link>
-          ))}
-          <small>Clear structure, refined design, practical development, and launch support.</small>
         </div>
       </section>
 

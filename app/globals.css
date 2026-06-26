@@ -154,16 +154,12 @@ textarea {
 }
 
 .hero {
-  align-items: center;
-  display: grid;
-  gap: 70px;
-  grid-template-columns: 1.05fr 0.82fr;
-  min-height: 100svh;
-  padding: 142px clamp(22px, 7vw, 110px) 90px;
+  min-height: 92svh;
+  padding: 160px clamp(22px, 7vw, 110px) 110px;
 }
 
 .hero-copy {
-  max-width: 850px;
+  max-width: 1040px;
 }
 
 .eyebrow,
@@ -214,6 +210,10 @@ h1 {
   line-height: 1.75;
 }
 
+.hero-copy p:not(.eyebrow) {
+  max-width: 760px;
+}
+
 .hero-actions {
   align-items: center;
   display: flex;
@@ -245,43 +245,6 @@ h1 {
   color: var(--white);
   font-weight: 850;
   padding-bottom: 4px;
-}
-
-.hero-panel {
-  backdrop-filter: blur(16px);
-  background: linear-gradient(135deg, rgba(255, 255, 255, 0.15), rgba(70, 112, 202, 0.22));
-  border: 1px solid rgba(255, 255, 255, 0.18);
-  border-radius: 38px;
-  box-shadow: 0 28px 100px rgba(0, 0, 0, 0.35);
-  padding: clamp(26px, 4vw, 42px);
-}
-
-.hero-panel p,
-.hero-panel small {
-  color: rgba(255, 255, 255, 0.64);
-  display: block;
-  font-weight: 850;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-}
-
-.hero-service {
-  align-items: center;
-  border-top: 1px solid rgba(255, 255, 255, 0.14);
-  display: grid;
-  gap: 24px;
-  grid-template-columns: 44px 1fr;
-  padding: 28px 0;
-}
-
-.hero-service span {
-  color: var(--blue);
-  font-weight: 900;
-}
-
-.hero-service strong {
-  font-size: clamp(25px, 2.5vw, 35px);
-  letter-spacing: -0.05em;
 }
 
 .studio-note,
