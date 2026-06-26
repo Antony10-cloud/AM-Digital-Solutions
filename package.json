@@ -1,0 +1,9 @@
+{
+  "name": "am-digital-solutions",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "npx serve . -l 4173",
+    "check": "node --check script.js"
+  }
+}

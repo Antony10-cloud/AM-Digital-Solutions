@@ -1,0 +1,11 @@
+node_modules/
+.netlify/
+.vercel/
+dist/
+build/
+outputs/
+work/
+portfolio/
+.DS_Store
+Thumbs.db
+*.log
