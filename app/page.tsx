@@ -22,12 +22,6 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section className="studio-note">
-        <p className="section-kicker">Studio</p>
-        <h2>Clean interfaces. Clear messaging. Digital products that feel considered.</h2>
-        <p>From the first screen to the final enquiry, every detail is shaped to feel simple, useful, and ready for business.</p>
-      </section>
-
       <section className="service-preview">
         <div className="section-heading">
           <p className="section-kicker">Services</p>
