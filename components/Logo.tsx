@@ -6,6 +6,12 @@ export function Logo({ className = "" }: LogoProps) {
   return (
     <span className={`logo ${className}`.trim()} aria-hidden="true">
       <svg className="logo-mark" viewBox="0 0 112 58" role="img">
+        <defs>
+          <linearGradient id="am-logo-gradient" x1="2" y1="2" x2="59" y2="52" gradientUnits="userSpaceOnUse">
+            <stop stopColor="#62d9ff" />
+            <stop offset="1" stopColor="#7b4dff" />
+          </linearGradient>
+        </defs>
         <path
           className="logo-a"
           d="M2 52 24 5c1.2-2.6 3.3-4 6.2-4h7.4L59 52H46.2l-5.1-12H19.5l-5.2 12H2Zm22.7-23.8h11.2L30.4 14l-5.7 14.2Z"

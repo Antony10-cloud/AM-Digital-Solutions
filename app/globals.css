@@ -90,7 +90,7 @@ textarea {
 }
 
 .logo-a {
-  fill: #ff5a12;
+  fill: url("#am-logo-gradient");
 }
 
 .logo-m {
