@@ -1,6 +1,6 @@
-# AM Digital Solutions Website
+# AM Digital Studio Website
 
-A premium Next.js website for AM Digital Solutions, built as a personal brand and service enquiry site.
+A premium Next.js website for AM Digital Studio, built as a personal brand and service enquiry site.
 
 ## Included
 

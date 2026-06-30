@@ -2,7 +2,7 @@ import { ServiceInquiry } from "@/components/ServiceInquiry";
 
 export const metadata = {
   title: "Contact",
-  description: "Contact AM Digital Solutions to request a website, mobile app, or digital system."
+  description: "Contact AM Digital Studio to request a website, mobile app, or digital system."
 };
 
 export default function ContactPage() {

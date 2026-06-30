@@ -1,18 +1,12 @@
 import Link from "next/link";
+import { Logo } from "@/components/Logo";
 import { services } from "@/lib/services";
 
 export function Header() {
   return (
     <header className="site-header">
-      <Link className="brand" href="/" aria-label="AM Digital Solutions home">
-        <span className="brand-mark">
-          <span>A</span>
-          <span>M</span>
-        </span>
-        <span className="brand-word">
-          <strong>AM</strong>
-          <span>Digital Solutions</span>
-        </span>
+      <Link className="brand" href="/" aria-label="AM Digital Studio home">
+        <Logo />
       </Link>
 
       <nav className="main-nav" aria-label="Main navigation">

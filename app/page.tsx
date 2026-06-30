@@ -7,7 +7,7 @@ export default function HomePage() {
       <section className="hero">
         <div className="hero-copy">
           <p className="eyebrow">
-            <span /> AM Digital Solutions
+            <span /> AM Digital Studio
           </p>
           <h1>Build a sharper digital presence.</h1>
           <p>Websites, apps, and systems designed to make your business easier to understand, trust, and choose.</p>

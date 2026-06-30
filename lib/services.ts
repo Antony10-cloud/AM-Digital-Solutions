@@ -21,7 +21,7 @@ export const services: Service[] = [
     summary:
       "For businesses that need a professional online home, stronger trust, and a better way to turn visitors into enquiries.",
     intro:
-      "AM Digital Solutions builds websites that feel clean, credible, and easy to use. The goal is not just to put pages online. The goal is to help someone understand what you do, believe you can help, and contact you without confusion.",
+      "AM Digital Studio builds websites that feel clean, credible, and easy to use. The goal is not just to put pages online. The goal is to help someone understand what you do, believe you can help, and contact you without confusion.",
     outcomes: [
       "A responsive website structured around your services and customer questions.",
       "Clear content flow for home, services, projects, and contact pages.",
@@ -44,7 +44,7 @@ export const services: Service[] = [
     summary:
       "For ideas that need to move beyond a website into a focused app experience people can use repeatedly.",
     intro:
-      "A good app should make something easier: booking, ordering, learning, reporting, managing, or communicating. AM Digital Solutions helps shape the idea into a practical product, then builds the screens and flows around the people who will use it.",
+      "A good app should make something easier: booking, ordering, learning, reporting, managing, or communicating. AM Digital Studio helps shape the idea into a practical product, then builds the screens and flows around the people who will use it.",
     outcomes: [
       "User flows that make the app simple to understand.",
       "Clean interface design for the key screens and actions.",
@@ -67,7 +67,7 @@ export const services: Service[] = [
     summary:
       "For businesses that need forms, dashboards, internal tools, booking flows, or request systems that fit the way they work.",
     intro:
-      "Not every business problem needs a huge platform. Sometimes you need a focused system that collects the right information, keeps work organized, and helps your team respond faster. AM Digital Solutions builds practical systems around the workflow first.",
+      "Not every business problem needs a huge platform. Sometimes you need a focused system that collects the right information, keeps work organized, and helps your team respond faster. AM Digital Studio builds practical systems around the workflow first.",
     outcomes: [
       "Custom request forms, dashboards, or admin workflows.",
       "Better organization for enquiries, files, records, or client requests.",

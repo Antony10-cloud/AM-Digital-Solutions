@@ -18,7 +18,7 @@ export function ServiceInquiry({ serviceName = "General Project", prompt }: Serv
     const message = String(formData.get("message") || "").trim();
 
     return [
-      `New AM Digital Solutions enquiry`,
+      `New AM Digital Studio enquiry`,
       `Service: ${serviceName}`,
       `Name: ${name}`,
       `Email: ${email}`,

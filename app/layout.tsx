@@ -5,11 +5,11 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: {
-    default: "AM Digital Solutions",
-    template: "%s | AM Digital Solutions"
+    default: "AM Digital Studio",
+    template: "%s | AM Digital Studio"
   },
   description:
-    "AM Digital Solutions builds websites, mobile apps, and digital systems for businesses that need clear, credible digital products.",
+    "AM Digital Studio builds websites, mobile apps, and digital systems for businesses that need clear, credible digital products.",
   metadataBase: new URL("https://web-design-request-system.vercel.app")
 };
 

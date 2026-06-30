@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export const metadata = {
   title: "Projects",
-  description: "Selected websites and digital products by AM Digital Solutions."
+  description: "Selected websites and digital products by AM Digital Studio."
 };
 
 export default function ProjectsPage() {

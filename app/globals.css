@@ -73,63 +73,41 @@ textarea {
 }
 
 .brand {
-  gap: 16px;
-}
-
-.brand-mark {
-  align-items: center;
-  background:
-    linear-gradient(#07111f, #07111f) padding-box,
-    linear-gradient(135deg, var(--blue), var(--violet)) border-box;
-  border: 1px solid transparent;
-  border-radius: 18px;
-  box-shadow: 0 20px 70px rgba(98, 217, 255, 0.18);
   display: inline-flex;
-  font-family: var(--font-display);
-  height: 56px;
-  justify-content: center;
-  letter-spacing: -0.18em;
-  overflow: hidden;
-  position: relative;
-  width: 56px;
 }
 
-.brand-mark::after {
-  background: linear-gradient(135deg, rgba(98, 217, 255, 0.28), rgba(123, 77, 255, 0.18));
-  content: "";
-  inset: 0;
-  opacity: 0.8;
-  position: absolute;
+.logo {
+  align-items: center;
+  display: inline-flex;
+  gap: 10px;
 }
 
-.brand-mark span {
-  color: var(--white);
-  font-size: 24px;
-  font-weight: 800;
-  line-height: 1;
-  position: relative;
-  z-index: 1;
+.logo-mark {
+  display: block;
+  height: 44px;
+  overflow: visible;
+  width: 85px;
 }
 
-.brand-word {
+.logo-a {
+  fill: #ff5a12;
+}
+
+.logo-m {
+  fill: #ffffff;
+}
+
+.logo-type {
   display: grid;
-  gap: 2px;
-  line-height: 1;
-}
-
-.brand-word strong {
-  font-family: var(--font-display);
-  font-size: 25px;
-  font-weight: 700;
-  letter-spacing: -0.06em;
-}
-
-.brand-word span {
-  color: rgba(255, 255, 255, 0.72);
-  font-size: 12px;
-  font-weight: 850;
-  letter-spacing: 0.18em;
+  line-height: 0.9;
   text-transform: uppercase;
+}
+
+.logo-type strong {
+  color: var(--white);
+  font-size: 16px;
+  font-weight: 900;
+  letter-spacing: 0.02em;
 }
 
 .main-nav {
@@ -728,16 +706,17 @@ h1 {
 }
 
 .footer-logo {
-  display: inline-block;
-  font-family: var(--font-display);
-  font-size: 24px;
-  font-weight: 700;
-  letter-spacing: -0.06em;
+  display: inline-flex;
   margin-bottom: 30px;
 }
 
-.footer-logo span {
-  color: var(--blue);
+.logo-footer .logo-mark {
+  height: 50px;
+  width: 96px;
+}
+
+.logo-footer .logo-type strong {
+  font-size: 18px;
 }
 
 .site-footer h3 {
@@ -850,9 +829,21 @@ h1 {
 }
 
 @media (max-width: 620px) {
-  .brand > .brand-word,
   .header-link {
     display: none;
+  }
+
+  .logo-type {
+    display: none;
+  }
+
+  .logo-mark {
+    height: 40px;
+    width: 78px;
+  }
+
+  .logo-footer .logo-type {
+    display: grid;
   }
 
   h1 {

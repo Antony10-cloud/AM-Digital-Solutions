@@ -3,7 +3,7 @@ import { services } from "@/lib/services";
 
 export const metadata = {
   title: "Services",
-  description: "Website development, mobile app development, and digital systems by AM Digital Solutions."
+  description: "Website development, mobile app development, and digital systems by AM Digital Studio."
 };
 
 export default function ServicesPage() {

@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { Logo } from "@/components/Logo";
 import { services } from "@/lib/services";
 
 const linkedIn = "https://www.linkedin.com/in/antonymugo";
@@ -33,14 +34,14 @@ export function Footer() {
       <div className="footer-grid">
         <div>
           <Link className="footer-logo" href="/">
-            <span>AM</span>DIGITAL
+            <Logo className="logo-footer" />
           </Link>
           <p>Building clean websites, mobile apps, and digital systems for businesses that want to look professional online.</p>
           <div className="social-links">
-            <a href="https://twitter.com/" aria-label="AM Digital Solutions on Twitter">
+            <a href="https://twitter.com/" aria-label="AM Digital Studio on Twitter">
               <TwitterIcon />
             </a>
-            <a href="https://www.instagram.com/" aria-label="AM Digital Solutions on Instagram">
+            <a href="https://www.instagram.com/" aria-label="AM Digital Studio on Instagram">
               <InstagramIcon />
             </a>
             <a href={linkedIn} aria-label="Antony Mugo on LinkedIn">
@@ -77,7 +78,7 @@ export function Footer() {
       </div>
 
       <div className="footer-bottom">
-        <span>&copy; 2026 AM Digital Solutions. All rights reserved.</span>
+        <span>&copy; 2026 AM Digital Studio. All rights reserved.</span>
         <div>
           <Link href="/contact">Privacy</Link>
           <Link href="/contact">Terms</Link>
