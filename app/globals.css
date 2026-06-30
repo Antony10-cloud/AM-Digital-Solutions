@@ -32,6 +32,7 @@ body {
     var(--bg);
   background-size: auto, auto, 86px 86px, 86px 86px, auto;
   color: var(--text);
+  font-size: 15px;
   font-family: var(--font-body);
 }
 
@@ -131,7 +132,7 @@ textarea {
 .main-nav {
   gap: 28px;
   color: rgba(255, 255, 255, 0.72);
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 750;
 }
 
@@ -237,7 +238,7 @@ p {
 
 h1 {
   font-family: var(--font-display);
-  font-size: clamp(52px, 7vw, 118px);
+  font-size: clamp(42px, 4.8vw, 72px);
   font-weight: 700;
   letter-spacing: -0.07em;
   line-height: 0.95;
@@ -254,7 +255,7 @@ h1 {
 .inquiry-section > div > p,
 .site-footer p {
   color: var(--muted);
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1.75;
 }
 
@@ -276,6 +277,7 @@ h1 {
   border-radius: 999px;
   cursor: pointer;
   display: inline-flex;
+  font-size: 14px;
   font-weight: 900;
   gap: 22px;
   justify-content: center;
@@ -310,7 +312,7 @@ h1 {
 .detail-block h2,
 .inquiry-section h2 {
   font-family: var(--font-display);
-  font-size: clamp(38px, 5vw, 72px);
+  font-size: clamp(30px, 3.5vw, 50px);
   font-weight: 700;
   letter-spacing: -0.06em;
   line-height: 1;
@@ -358,7 +360,7 @@ h1 {
 .service-card h3,
 .wide-card h2 {
   font-family: var(--font-display);
-  font-size: clamp(28px, 3vw, 44px);
+  font-size: clamp(24px, 2.2vw, 34px);
   font-weight: 700;
   letter-spacing: -0.05em;
   line-height: 1.05;
@@ -404,29 +406,29 @@ h1 {
 .projects-showcase {
   background: #f3f5f9;
   color: var(--dark-text);
-  padding: 110px clamp(22px, 7vw, 110px);
+  padding: 82px clamp(22px, 7vw, 110px);
 }
 
 .featured-project {
   margin: 0 auto;
-  max-width: 1500px;
+  max-width: 1120px;
 }
 
 .featured-project + .featured-project {
-  margin-top: 130px;
+  margin-top: 92px;
 }
 
 .project-preview {
   background: #d9d2c6;
   display: block;
   overflow: hidden;
-  padding: clamp(24px, 5vw, 78px) clamp(18px, 6vw, 94px) 0;
+  padding: clamp(20px, 3.4vw, 48px) clamp(16px, 4vw, 58px) 0;
 }
 
 .project-browser {
   background: #f1eee8;
   box-shadow: 0 32px 90px rgba(27, 30, 34, 0.18);
-  min-height: clamp(390px, 54vw, 720px);
+  min-height: clamp(300px, 38vw, 500px);
   overflow: hidden;
 }
 
@@ -457,15 +459,15 @@ h1 {
     linear-gradient(90deg, rgba(14, 14, 12, 0.94), rgba(14, 14, 12, 0.36)),
     linear-gradient(135deg, #504a41 0%, #8b806f 50%, #242720 100%);
   color: #f5f0e8;
-  min-height: clamp(352px, 50vw, 682px);
-  padding: clamp(24px, 5vw, 70px);
+  min-height: clamp(262px, 35vw, 462px);
+  padding: clamp(22px, 3.5vw, 48px);
 }
 
 .smi-preview-nav {
   align-items: center;
   display: flex;
   justify-content: space-between;
-  margin-bottom: clamp(80px, 12vw, 170px);
+  margin-bottom: clamp(54px, 8vw, 105px);
 }
 
 .smi-preview-nav strong {
@@ -482,7 +484,7 @@ h1 {
 
 .smi-preview h2 {
   font-family: var(--font-display);
-  font-size: clamp(38px, 6vw, 88px);
+  font-size: clamp(28px, 3.8vw, 52px);
   font-weight: 500;
   letter-spacing: -0.05em;
   line-height: 0.96;
@@ -511,15 +513,15 @@ h1 {
     linear-gradient(90deg, rgba(12, 25, 20, 0.96), rgba(12, 25, 20, 0.28)),
     linear-gradient(145deg, #172c22 0%, #68826d 52%, #d3a860 100%);
   color: #f4f1e8;
-  min-height: clamp(352px, 50vw, 682px);
-  padding: clamp(24px, 5vw, 70px);
+  min-height: clamp(262px, 35vw, 462px);
+  padding: clamp(22px, 3.5vw, 48px);
 }
 
 .stema-preview-nav {
   align-items: center;
   display: flex;
   justify-content: space-between;
-  margin-bottom: clamp(80px, 12vw, 170px);
+  margin-bottom: clamp(54px, 8vw, 105px);
 }
 
 .stema-preview-nav strong {
@@ -536,7 +538,7 @@ h1 {
 
 .stema-preview h2 {
   font-family: var(--font-display);
-  font-size: clamp(38px, 5.8vw, 84px);
+  font-size: clamp(28px, 3.7vw, 50px);
   font-weight: 500;
   letter-spacing: -0.05em;
   line-height: 0.98;
@@ -559,9 +561,9 @@ h1 {
 .project-details {
   border-bottom: 1px solid #cfd4dd;
   display: grid;
-  gap: 70px;
+  gap: 52px;
   grid-template-columns: 1.25fr 0.75fr;
-  padding: 52px 0 88px;
+  padding: 38px 0 62px;
 }
 
 .project-number {
@@ -574,7 +576,7 @@ h1 {
 
 .project-details h2 {
   font-family: var(--font-display);
-  font-size: clamp(34px, 4.2vw, 68px);
+  font-size: clamp(27px, 2.8vw, 42px);
   letter-spacing: -0.05em;
   line-height: 1;
   margin: 16px 0 0;
@@ -586,7 +588,7 @@ h1 {
 
 .project-summary p {
   color: #566176;
-  font-size: 17px;
+  font-size: 15px;
   line-height: 1.75;
 }
 
@@ -619,13 +621,13 @@ h1 {
   align-items: center;
   display: flex;
   justify-content: space-between;
-  margin: 100px auto 0;
-  max-width: 1500px;
+  margin: 78px auto 0;
+  max-width: 1120px;
 }
 
 .projects-cta p {
   font-family: var(--font-display);
-  font-size: clamp(30px, 4vw, 56px);
+  font-size: clamp(28px, 3vw, 44px);
   letter-spacing: -0.04em;
 }
 
@@ -851,7 +853,7 @@ h1 {
   }
 
   h1 {
-    font-size: clamp(48px, 16vw, 72px);
+    font-size: clamp(38px, 11vw, 50px);
   }
 
   .hero,
