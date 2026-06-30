@@ -61,7 +61,7 @@ export function ServiceInquiry({ serviceName = "General Project", prompt }: Serv
     <section className="inquiry-section" id="inquiry">
       <div>
         <p className="section-kicker">Project Enquiry</p>
-        <h2>Let&apos;s shape the right version of this.</h2>
+        <h2>Tell me about your project.</h2>
         <p>{prompt || "Share what you want to build, what already exists, and what the finished result should help you do."}</p>
       </div>
 

@@ -80,7 +80,7 @@ export default function ProjectsPage() {
               </div>
               <div className="stema-preview">
                 <div className="stema-preview-nav">
-                  <strong>STEMA PIISTU ADVENT</strong>
+                  <strong>STEMA PIUSTU ADVENT</strong>
                   <span>TRIPS&nbsp;&nbsp;&nbsp; TRANSPORT&nbsp;&nbsp;&nbsp; MOVING</span>
                 </div>
                 <p>DELIVERING BEYOND DISTANCE</p>
