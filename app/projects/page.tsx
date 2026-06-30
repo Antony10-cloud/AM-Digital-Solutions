@@ -15,7 +15,13 @@ export default function ProjectsPage() {
 
       <section className="projects-showcase" aria-label="Selected projects">
         <article className="featured-project">
-          <div className="project-preview">
+          <a
+            className="project-preview"
+            href="https://smi-premium-demo.vercel.app"
+            target="_blank"
+            rel="noreferrer"
+            aria-label="Open the SMI website"
+          >
             <div className="project-browser">
               <div className="project-browser-bar">
                 <span />
@@ -33,7 +39,7 @@ export default function ProjectsPage() {
                 <span className="smi-preview-link">VIEW OUR WORK&nbsp; ↗</span>
               </div>
             </div>
-          </div>
+          </a>
 
           <div className="project-details">
             <div>
@@ -50,12 +56,21 @@ export default function ProjectsPage() {
                 <li>Web design</li>
                 <li>Development</li>
               </ul>
+              <a href="https://smi-premium-demo.vercel.app" target="_blank" rel="noreferrer">
+                View live website <span aria-hidden="true">↗</span>
+              </a>
             </div>
           </div>
         </article>
 
         <article className="featured-project">
-          <div className="project-preview stema-project-preview">
+          <a
+            className="project-preview stema-project-preview"
+            href="https://stema-piustu-advent.vercel.app"
+            target="_blank"
+            rel="noreferrer"
+            aria-label="Open the Stema Piustu Advent website"
+          >
             <div className="project-browser">
               <div className="project-browser-bar">
                 <span />
@@ -73,7 +88,7 @@ export default function ProjectsPage() {
                 <span className="stema-preview-link">BOOK OR REQUEST A QUOTE&nbsp; ↗</span>
               </div>
             </div>
-          </div>
+          </a>
 
           <div className="project-details">
             <div>
@@ -90,6 +105,9 @@ export default function ProjectsPage() {
                 <li>Admin backend</li>
                 <li>Mobile application</li>
               </ul>
+              <a href="https://stema-piustu-advent.vercel.app" target="_blank" rel="noreferrer">
+                View live website <span aria-hidden="true">↗</span>
+              </a>
             </div>
           </div>
         </article>
